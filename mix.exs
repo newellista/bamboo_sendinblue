@@ -39,7 +39,7 @@ defmodule BambooSendinblue.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:bamboo, github: "thoughtbot/bamboo"},
+      {:bamboo, "~> 0.8"},
       {:cowboy, "~> 1.0", only: [:test, :dev]},
     ]
   end
